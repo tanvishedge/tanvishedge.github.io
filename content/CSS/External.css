@@ -39,7 +39,7 @@ body {
 #frontrightoverlap {
     position: absolute;
     top: 13.125em;
-    right: 8.875em;
+    right: 6.875em;
     width: 14.5em;
     height: auto; /*5.75em*/
     max-width: 100%;
@@ -54,17 +54,17 @@ body {
 #frontrightdot {
     position: absolute;
     top: -4em;
-    right: 11.6em;
+    right: 9.6em;
     max-width: 100%;
 }
 
 #backrightoverlap {
     position: absolute;
     top: 24.5em;
-    right: -7em;
-    width: 100%;
-    height: 10%; /*5.75em*/
-    max-width: 100%;
+    right: 0em;
+    width: 13.75em;
+    height: auto; /*5.75em*/
+    /*max-width: 100%;*/
 }
 
 .title1 {
@@ -135,11 +135,11 @@ body {
 #spn0fee {
     color: #164796;
     font-family: Century Gothic;
-    font-size: 4.125em;
+    font-size: 3.125em;
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 4.5em;
+    line-height: 1.5em;
 }
 
 #spn0opnfee {
@@ -163,11 +163,11 @@ body {
 #spn5000 {
     color: #164796;
     font-family: Century Gothic;
-    font-size: 4.125em;
+    font-size: 3.125em;
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
-    line-height: 4.5em;
+    line-height: 1.5em;
 }
 
 #spnresearch {
@@ -208,10 +208,10 @@ body {
 
 #imglayer12 {
     position: absolute;
-    top: 40%;
+    top: 36%;
     left: 0em;
-    width: 28.125em;
-    height: auto;
+    width: 26.125em;
+    height: 70%;
     max-width: 100%;
 }
 
@@ -227,10 +227,18 @@ body {
 #imglayer11copy3right {
     position: absolute;
     top: 79%;
-    left: 10%;
-    width: 13.5em;
-    height: 6.375em;
+    left: 12%;
+    width: 12%;
+    height: 7%;
     max-width: 100%;
+}
+
+#imglayer15 {
+    position: absolute;
+    top: 62%;
+    right: 10%;
+    height: auto;
+    width: 15.75em;
 }
 
 #spnservadv {
@@ -707,22 +715,22 @@ body {
 .Diwan {
     background-color: #E9E9E9;
     position: absolute;
-    height: auto;
+    height: 33%;
     width: 32%;
-    top: 10%;
-    right: 35%;
-    padding: 1% 3% 1% 3%;
+    top: 8%;
+    right: 32%;
+    padding: 1% 1% 1% 3%;
     border-radius: 10% 10% 10% 10%;
 }
 
 .Sahil {
     background-color: #E9E9E9;
     position: absolute;
-    height: auto;
+    height: 29%;
     width: 32%;
-    top: 42%;
+    top: 45%;
     left: 21%;
-    padding: 2% 3% 2% 3%;
+    padding: 1% 2% 1% 2%;
     border-radius: 10% 10% 10% 10%;
 }
 
@@ -744,4 +752,49 @@ body {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
+}
+
+#imglayer20copy2 {
+    position: absolute;
+    right: 11%;
+    top: 70%;
+    width: 26%;
+}
+
+#imglayer18 {
+    position: absolute;
+    top: 38%;
+    right: 5%;
+    height: auto;
+    width: 30%;
+}
+
+#imglayer20 {
+    position: absolute;
+    top: 93%;
+    right: 0%;
+    width: 15%;
+}
+
+#imglayer24copy {
+    position: absolute;
+    height: auto;
+    width: 7%;
+    top: 60%;
+    left: 7%;
+}
+
+#imglayer23 {
+    position: relative;
+    height: auto;
+    width: 15%;
+    margin-left: 9%;
+}
+
+#imglayer24 {
+    position: absolute;
+    height: auto;
+    width: 13%;
+    top: 24%;
+    left: 4%;
 }
