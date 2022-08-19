@@ -1,0 +1,747 @@
+﻿body {
+}
+
+.overlap-left {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#frontleftoverlap {
+    position: absolute;
+    top: 20.563em;
+    left: 6.875em;
+    height: auto; /*5.75em*/
+    max-width: 100%;
+}
+
+#leftmainimg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#backleftoverlap {
+    position: absolute;
+    top: 9.875em;
+    left: 0em;
+    width: 4.063em;
+    height: auto; /*5.75em*/
+    max-width: 100%;
+}
+
+.overlap-right {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#frontrightoverlap {
+    position: absolute;
+    top: 13.125em;
+    right: 8.875em;
+    width: 14.5em;
+    height: auto; /*5.75em*/
+    max-width: 100%;
+}
+
+#rightmainimg {
+    position: relative;
+    top: 0em;
+    right: 0em;
+}
+
+#frontrightdot {
+    position: absolute;
+    top: -4em;
+    right: 11.6em;
+    max-width: 100%;
+}
+
+#backrightoverlap {
+    position: absolute;
+    top: 24.5em;
+    right: -7em;
+    width: 100%;
+    height: 10%; /*5.75em*/
+    max-width: 100%;
+}
+
+.title1 {
+    width: 37.75em;
+    height: 3.125em;
+    color: #244697;
+    font-family: Century Gothic;
+    font-size: 3.188em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.title2 {
+    width: 37.75em;
+    height: 3.125em;
+    color: #244697;
+    font-family: Century Gothic;
+    font-size: 3.188em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.title3 {
+    color: #010000;
+    font-family: "Century Gothic";
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: normal;
+    padding-top: 0.938em
+}
+
+.mobileno {
+    width: 80%;
+    height: 4em;
+    border-radius: 1.563em;
+    font-family: "Century Gothic";
+}
+
+.consent {
+    font-family: lato;
+    margin-top: 1.25em;
+}
+
+#btnopnfreeacc {
+    background-color: #244697;
+    color: white;
+    border-radius: 1.563em;
+    width: 80%;
+}
+
+.row-mid {
+    padding-top: 7%;
+}
+
+#spnopnacc {
+    font-family: Century Gothic;
+    font-size: 1.375em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.375em;
+}
+
+#spn0fee {
+    color: #164796;
+    font-family: Century Gothic;
+    font-size: 4.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 4.5em;
+}
+
+#spn0opnfee {
+    font-family: Century Gothic;
+    font-size: 1.375em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.375em;
+}
+
+#spnwelcomeoffer {
+    font-family: Century Gothic;
+    font-size: 1.375em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.375em;
+}
+
+#spn5000 {
+    color: #164796;
+    font-family: Century Gothic;
+    font-size: 4.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 4.5em;
+}
+
+#spnresearch {
+    font-family: Century Gothic;
+    font-size: 1.375em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.375em;
+}
+
+#imglayer11 {
+    position: absolute;
+    top: 18%;
+    right: 3.75em;
+    height: 5.75em;
+    width: auto;
+    max-width: 100%;
+}
+
+#imglayer11copy3 {
+    position: absolute;
+    top: 69%;
+    left: 1%;
+    width: 11.5em;
+    height: 5.375em;
+    max-width: 100%;
+}
+
+#imglayer11copy2 {
+    position: absolute;
+    top: 33%;
+    right: 0.438em;
+    height: 5.75em;
+    width: 30%;
+    max-width: 100%;
+}
+
+#imglayer12 {
+    position: absolute;
+    top: 40%;
+    left: 0em;
+    width: 28.125em;
+    height: auto;
+    max-width: 100%;
+}
+
+#imglayer11copy4 {
+    position: absolute;
+    top: 54%;
+    left: 0em;
+    width: 11.5em;
+    height: 5.375em;
+    max-width: 100%;
+}
+
+#imglayer11copy3right {
+    position: absolute;
+    top: 79%;
+    left: 10%;
+    width: 13.5em;
+    height: 6.375em;
+    max-width: 100%;
+}
+
+#spnservadv {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-top: 7%;
+}
+
+#spn4x {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnleverage {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spntraders {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spntopchoice {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnrs20 {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnoptntrading {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnget {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnresearchideas {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnideas {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnpaperless {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnactivation {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnadvanced {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnportfolio {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spntracker {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spnallin1acc {
+    color: #000000;
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+#spnlongterm {
+    color: #000000;
+    font-family: Century Gothic;
+    font-size: 1.875em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+#spneqderiv {
+    color: #16469f;
+    font-family: Century Gothic;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-top: 60%;
+    padding-bottom: 27%;
+}
+
+#spnfinlend {
+    color: #000000;
+    font-family: Century Gothic;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 27%;
+}
+
+#spncurrency {
+    color: #000000;
+    font-family: Century Gothic;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 27%;
+}
+
+#spncommodity {
+    color: #000000;
+    font-family: Century Gothic;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 27%;
+}
+
+#spnresearchadv {
+    color: #000000;
+    font-family: Century Gothic;
+    font-size: 1.125em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 27%;
+}
+
+#spneqneqderiv {
+    color: #2852a4;
+    font-family: Century Gothic;
+    font-size: 1.375em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#spn3steps {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+#spn1step {
+    color: #2960e1;
+    font-family: Century Gothic;
+    font-size: 4.5em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    position: relative;
+    top: 0;
+    left: 12%;
+}
+
+#spn1personal {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.063em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    position: absolute;
+    top: 29%;
+    left: 67%;
+}
+
+#spn2step {
+    color: #2960e1;
+    font-family: Century Gothic;
+    font-size: 4.5em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    position: relative;
+    top: 0;
+    left: 4%;
+}
+
+#spn2complete {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.063em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    position: absolute;
+    top: 29%;
+    left: 23%;
+}
+
+#spn3step {
+    color: #2960e1;
+    font-family: Century Gothic;
+    font-size: 4.5em;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#spn3esign {
+    color: #ffffff;
+    font-family: Century Gothic;
+    font-size: 2.063em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    position: absolute;
+    top: 29%;
+    left: 18%;
+}
+
+#spnchoose {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#spn6900 {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spnactive {
+    font-family: Century Gothic;
+    font-size: 1.063em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spn178000 {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spnclients {
+    font-family: Century Gothic;
+    font-size: 1.063em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spn17200cr {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spndailyvol {
+    font-family: Century Gothic;
+    font-size: 1.063em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spn65560cr {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spnaumaua {
+    font-family: Century Gothic;
+    font-size: 1.063em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spn180 {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spncities {
+    font-family: Century Gothic;
+    font-size: 1.063em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spn29 {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spnbranches {
+    font-family: Century Gothic;
+    font-size: 1.063em;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #244697;
+}
+
+#spngoodcomp {
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+#spnreadytobegin {
+    color: #f5f5f5;
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+#spnsignup {
+    color: #f5f5f5;
+    font-family: Century Gothic;
+    font-size: 2.625em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.Diwan {
+    background-color: #E9E9E9;
+    position: absolute;
+    height: auto;
+    width: 32%;
+    top: 10%;
+    right: 35%;
+    padding: 1% 3% 1% 3%;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.Sahil {
+    background-color: #E9E9E9;
+    position: absolute;
+    height: auto;
+    width: 32%;
+    top: 42%;
+    left: 21%;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10% 10% 10% 10%;
+}
+
+#spndrdiwan {
+    color: #16469f;
+    font-family: Century Gothic;
+    font-size: 0.813em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#spnsahilsachdev {
+    color: #16469f;
+    font-family: Century Gothic;
+    font-size: 0.813em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
